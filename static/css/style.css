@@ -1,0 +1,55 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-rendering: optimizelegibility;
+    width: 900px;
+    margin-top: 10px;
+    margin-left: 100px;
+    position: relative;
+}
+
+a {
+    color: steelblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.topbar a {
+    margin-right: 0.5em;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 0.3em;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+div.left {
+    width: 60%;
+    float: left;
+}
+
+div.right {
+    float: right;
+}
+
+.title {
+    font-style:italic;
+}
+
+div.bottom-div {
+    height: 50px;
+    clear: both;
+}
+
+div.separator-div {
+    height: 5px;
+}
